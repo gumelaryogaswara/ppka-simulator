@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/ppka-simulator/', // Ganti dengan nama repository GitHub Anda persis (diawali dan diakhiri garis miring)
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
